@@ -1,6 +1,6 @@
 # tableau
 
-2 datasets:
+2 datasets: This is a sample data set for a fictitious soft drink company. 
 
 1. Beverage sales
 2. Custom shape for US states
