@@ -22,6 +22,44 @@ make the dashboard dynamic and interactive using different filter types and a pa
 3. Workbook: https://public.tableau.com/app/profile/andy.kriebel/viz/MasteringContainers-InteractiveKPIDashboard/KPIs
 
 ----------------------------------------------------------------
+
+This is a sample data set for a fictitious soft drink company. Also included is the Python script so you can customize it for your use.
+
+Step 1: Install Python:
+
+Visit the official Python website at https://www.python.org/.
+
+Click on the "Downloads" menu, and you'll see the latest version of Python available for download. Make sure to choose a version that fits your operating system (Windows, macOS, or Linux).
+
+Download the installer for the appropriate version of Python and run it. During the installation process, ensure that you check the box to add Python to the system PATH (this allows you to run Python from the command line).
+
+Complete the installation by following the prompts.
+
+Step 2: Install Pandas Library:
+
+Once you have Python installed, you can install the Pandas library using Python's package manager called "pip." Pip comes installed by default with Python.
+
+Open a terminal or command prompt.
+
+To install Pandas, simply type the following command and press Enter:
+
+pip install pandas
+
+Pip will automatically download and install the latest version of the Pandas library.
+
+Step 3: Install Faker library
+
+Open a terminal or command prompt.
+
+To install Faker, simply type the following command and press Enter:
+
+pip install faker
+
+Pip will automatically download and install the latest version of the Faker library.
+
+Once you run the code, it will create a CSV file named "sample_data_set.csv" containing 10,000 rows of randomly generated data, including the columns for product, category, units sold, revenue, cost of goods sold, profit, purchase date, customer name, customer location, and region.
+
+-------------------------------------
 import pandas as pd
 import random
 from faker import Faker
